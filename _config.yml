@@ -22,8 +22,13 @@ email: YOUR EMAIL
 description: >-
   This is an example book built with Jupyter Books.
 
+<<<<<<< HEAD
 baseurl: /               # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
 url: YOUR URL              # the base hostname & protocol for your site, e.g. http://example.com
+=======
+baseurl: "/" # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
+url: YOUR URL # the base hostname & protocol for your site, e.g. http://example.com
+>>>>>>> fdc79a30c55e3000d27627184564274aa9625ad5
 
 
 #######################################################################################
