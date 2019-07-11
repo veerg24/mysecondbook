@@ -1,11 +1,11 @@
 ---
-title: 'Markdown'
+title: 'Markdown files'
 prev_page:
-  url: /intro
-  title: 'Intro'
+  url: /features/features
+  title: 'Features and customization'
 next_page:
   url: /features/notebooks
-  title: 'Notebooks'
+  title: 'Jupyter notebooks'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # Creating book content
@@ -18,7 +18,15 @@ The two kinds of files that contain course content are:
 Each are contained in the `content/` folder and referenced from `_data/toc.yml`.
 
 If the file is markdown, it will be copied over with front-matter YAML added so
-that Jekyll can parse it
+that Jekyll can parse it.
+
+```python
+print("Python (and any language-specific) code still works as expected")
+```
+
+```
+As does non-language code.
+```
 
 ## Sidebars with Jekyll
 
@@ -31,7 +39,7 @@ of a line.
 ### Here's a third-level header
 
 This section is here purely to demonstrate the third-level header of the
-rendered page!
+rendered page in the sidebar!
 
 ## Embedding media
 
